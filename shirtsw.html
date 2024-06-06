@@ -3,40 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OFM</title>
+<!--hier staat de titel van de pagina-->
+<title>OnlyForMembers.nl/women/shirts</title>
+<!--hier zetten we deze code in een css bestand-->
+<link rel="stylesheet" href="stijl.css">
 <style>
-       body {
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           min-height: 100vh;
-           margin: 0;
-           background-color: #f0f0f0;
-       }
-       .container {
-           display: grid;
-           grid-template-columns: repeat(3, 1fr);
-           grid-gap: 10px;
-       }
-       .box {
-           width: 400px;
-           height: 400px;
-           overflow: hidden;
-       }
-       .box img {
-           width: 100%;
-           
-       }
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    .navbar {
+        background-color: #000;
+        overflow: hidden;
+        padding: 10px 0;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
 </style>
-</head>
 <body>
-<div class="container">
-<div class="box"><img src="shirt1 dolce dames.png" alt="Image 1"></div>
-<div class="box"><img src="shirt2 vince dames.png" alt="Image 2"></div>
-<div class="box"><img src="shirt3 tory dames.png" alt="Image 3"></div>
-<div class="box"><img src="shirt4 d2 dames.png" alt="Image 4"></div>
-<div class="box"><img src="shirt5 d2 dames.png" alt="Image 5"></div>
-<div class="box"><img src="shirt6 nanu dames.png" alt="Image 6"></div>
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="women.html">Women</a>
+<a href="aboutus.html">About us</a>
+</div>
+</head>
+<!--hier staan alle plaatjes van deze pagina-->
+<body class="shirtentrui">
+<div class="container2">
+<div class="box2"><img src="shirt1 dolce dames.png" alt="Image 1"></div>
+<div class="box2"><img src="shirt2 vince dames.png" alt="Image 2"></div>
+<div class="box2"><img src="shirt3 tory dames.png" alt="Image 3"></div>
+<div class="box2"><img src="shirt4 d2 dames.png" alt="Image 4"></div>
+<div class="box2"><img src="shirt5 d2 dames.png" alt="Image 5"></div>
+<div class="box2"><img src="shirt6 nanu dames.png" alt="Image 6"></div>
 </div>
 </body>
 </html>
